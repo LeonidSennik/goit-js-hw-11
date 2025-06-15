@@ -54,5 +54,6 @@ form.addEventListener('submit', async (e) => {
   }
 });
 window.addEventListener('load', () => {
-  document.querySelector('.loader').style.display = 'none';
+  const loader = document.querySelector('.loader');
+  if (loader) loader.style.display = 'none';
 });
