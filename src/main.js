@@ -53,3 +53,6 @@ form.addEventListener('submit', async (e) => {
     hideLoader();
   }
 });
+window.addEventListener('load', () => {
+  document.querySelector('.loader').style.display = 'none';
+});
